@@ -1,0 +1,32 @@
+$bg: rgb(14, 13, 13);
+
+.header {
+  height: 80px;
+  background-color: $bg;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  > img {
+    height: 100%;
+  }
+  > div {
+    width: 100%;
+    margin-left: 6vmax;
+
+    > a {
+      font-size: 1.3rem;
+      font-weight: 300;
+      margin: 2.3vmax;
+    }
+  }
+  > svg {
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    &:hover {
+      color: gainsboro;
+    }
+  }
+}
